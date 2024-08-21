@@ -10,6 +10,12 @@ A deep learning-based steganography project utilizing autoencoders to securely e
    - High-resolution images from the DIV2K dataset are used in the training and validation processes.
    - The high-resolution images were pre-processed and resized to a fixed shape of `(64 x 64)`.
    - As a result of the split, half of the train images are secret images, while the other half are cover images.
+  
+
+
+     ![Dataset](Dataset.png)
+
+     
 
 2. **Model Architecture:**
     - **Encoder:**
@@ -76,7 +82,7 @@ pip install -r requirements.txt
 
 ## 4. Results
 
-  - Distribution of Error in Cover & Secret Image
+  - **Distribution of Error in Cover & Secret Image**
     
 
 
@@ -84,15 +90,14 @@ pip install -r requirements.txt
    
 
   
-  - The model successfully embeds and retrieves secret images with minimal loss of quality.
-  - Visual examples of the cover image, secret image, encoded image, and decoded image are provided:
+  - **Encoded and Decoded Output**
     
 
     
     ![Steganography Results](Steganography.png)
 
     
-  - Structural Similarity Index Score (SSIM):
+  - **Structural Similarity Index Score (SSIM)**
 
     
     
@@ -106,7 +111,6 @@ pip install -r requirements.txt
   - SteganoGAN : https://github.com/DAI-Lab/SteganoGAN
   - End-to-End Image Steganography Using Deep Convolutional Autoencoders : https://ieeexplore.ieee.org/document/9541180
   - End-to-end Trained CNN Encode-Decoder Networks for Image Steganography : https://paperswithcode.com/paper/end-to-end-trained-cnn-encode-decoder
-  - DIV2K Dataset on Kaggle
 
 ## 6. Contact
   - For questions or collaborations, you can reach me at samama4200@gmail.com.
