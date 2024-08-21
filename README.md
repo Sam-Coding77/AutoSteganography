@@ -70,7 +70,11 @@ pip install -r requirements.txt
 ## Results
   - The model successfully embeds and retrieves secret images with minimal loss of quality.
   - Visual examples of the cover image, secret image, encoded image, and decoded image are provided:
-  - ![Steganography Results](Steganography.png)
+
+    
+    ![Steganography Results](Steganography.png)
+
+    
   - Performance Metrics:
   - Structural Similarity Index (SSIM) between original and decoded images.
 
