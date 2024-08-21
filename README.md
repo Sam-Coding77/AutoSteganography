@@ -60,25 +60,20 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 ### Install the required dependencies
 pip install -r requirements.txt
 
-## Project Structure
-
-├── data/                    # Folder containing the dataset
-├── models/                  # Pretrained model weights
-├── notebooks/               # Jupyter notebooks for exploration and testing
-├── src/
-│   ├── encoder.py           # Encoder model definition
-│   ├── decoder.py           # Decoder model definition
-│   ├── autoencoder.py       # Full autoencoder model combining encoder and decoder
-│   └── utils.py             # Utility functions for data processing and visualization
-├── results/                 # Folder to store output images and results
-├── requirements.txt         # List of dependencies to be installed
-├── README.md                # Project overview and instructions
-└── main.py                  # Main script to run the project
-
 ## Dataset
   - The project uses the DIV2K dataset, which contains high-resolution images used for training and validation.
   - The dataset can be downloaded from Kaggle using the following command: !kaggle datasets download -d joe1995/div2k-dataset
   - Or download from this link: https://www.kaggle.com/datasets/joe1995/div2k-dataset
   - The images are preprocessed to a fixed size of 64x64 pixels for model input.
   - For training, half of the dataset is used as cover images and the other half as secret images.
+
+## Results
+  - The model successfully embeds and retrieves secret images with minimal loss of quality.
+  - Visual examples of the cover image, secret image, encoded image, and decoded image are provided:
+  Cover Image: 
+  Secret Image: 
+  Encoded Image: 
+  Decoded Image: 
+  - Performance Metrics:
+  - Structural Similarity Index (SSIM) between original and decoded images.
 
