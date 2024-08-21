@@ -10,12 +10,6 @@ A deep learning-based steganography project utilizing autoencoders to securely e
    - High-resolution images from the DIV2K dataset are used in the training and validation processes.
    - The high-resolution images were pre-processed and resized to a fixed shape of `(64 x 64)`.
    - As a result of the split, half of the train images are secret images, while the other half are cover images.
-  
-
-
-     ![Dataset](Dataset.png)
-
-     
 
 2. **Model Architecture:**
     - **Encoder:**
@@ -79,6 +73,14 @@ pip install -r requirements.txt
   - Or download from this link: https://www.kaggle.com/datasets/joe1995/div2k-dataset
   - The images are preprocessed to a fixed size of 64x64 pixels for model input.
   - For training, half of the dataset is used as cover images and the other half as secret images.
+
+      
+
+
+     ![Dataset](Dataset.png)
+
+     
+
 
 ## 4. Results
 
