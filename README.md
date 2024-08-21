@@ -77,10 +77,8 @@ pip install -r requirements.txt
 
 ## Dataset
   - The project uses the DIV2K dataset, which contains high-resolution images used for training and validation.
-  - The dataset can be downloaded from Kaggle using the following command:
-  - !kaggle datasets download -d joe1995/div2k-dataset
-  - Or download from this link:
-  - https://www.kaggle.com/datasets/joe1995/div2k-dataset
-  -The images are preprocessed to a fixed size of 64x64 pixels for model input.
-  -For training, half of the dataset is used as cover images and the other half as secret images.
+  - The dataset can be downloaded from Kaggle using the following command: !kaggle datasets download -d joe1995/div2k-dataset
+  - Or download from this link: https://www.kaggle.com/datasets/joe1995/div2k-dataset
+  - The images are preprocessed to a fixed size of 64x64 pixels for model input.
+  - For training, half of the dataset is used as cover images and the other half as secret images.
 
