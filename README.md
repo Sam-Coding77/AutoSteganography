@@ -12,14 +12,14 @@ A deep learning-based steganography project utilizing autoencoders to securely e
    - As a result of the split, half of the train images are secret images, while the other half are cover images.
 
 2. **Model Architecture:**
-  - **Encoder:**
-    - The encoder, which makes up the first half of the autoencoder, embeds the secret image into the cover image. The images are processed through it with convolutional layers with different kernel sizes and activation functions. Upscaling in the network is done with subpixel convolution, while feature maps at different levels are concatenated for merging information from different layers.
+    - **Encoder:**
+      - The encoder, which makes up the first half of the autoencoder, embeds the secret image into the cover image. The images are processed through it with convolutional layers with different kernel sizes and activation functions. Upscaling in the network is done with subpixel convolution, while feature maps at different levels are concatenated for merging information from different layers.
     
-  - **Decoder:**
-    - The second half of an autoencoder is the decoder; it retrieves the hidden secret image from the encoded image. For this, it again utilizes convolutional layers to decode the embedded information and reconstruct the secret image.
+    - **Decoder:**
+      - The second half of an autoencoder is the decoder; it retrieves the hidden secret image from the encoded image. For this, it again utilizes convolutional layers to decode the embedded information and reconstruct the secret image.
     
-  - **Autoencoder:**
-    - In this ensemble model, the embedding and revealing parts are combined so that both embedding and revealing procedures can be learned together. It is trained with an expanded loss function that includes not only the Mean Squared Error but also the Structural Similarity Index, Peak Signal-to-Noise Ratio, and a color histogram loss to maintain high fidelity in the reconstruction of images in both embedded and recovered states.
+    - **Autoencoder:**
+      - In this ensemble model, the embedding and revealing parts are combined so that both embedding and revealing procedures can be learned together. It is trained with an expanded loss function that includes not only the Mean Squared Error but also the Structural Similarity Index, Peak Signal-to-Noise Ratio, and a color histogram loss to maintain high fidelity in the reconstruction of images in both embedded and recovered states.
 
 3. **Training and Evaluation:**
     - The model is trained for multiple epochs with a batch size of 16. A decaying learning rate schedule gives better convergence. The process is monitored with validation data, and the evaluation of the encoder and the decoder is to be tracked for the performance. Save loss history for both train and validation phases.
@@ -30,8 +30,7 @@ A deep learning-based steganography project utilizing autoencoders to securely e
     - **Full Loss:** The loss function is applied to both the secret and cover images for their effective optimization during the training process.
    
 5. **Image Processing Techniques:**
-    - The project makes use of other techniques for image processing, which includes sharpening and smoothing, to give the encoded and decoded images a      
-better look of quality.
+    - The project makes use of other techniques for image processing, which includes sharpening and smoothing, to give the encoded and decoded images a better look of quality.
 
 7. **Evaluation Metrics:**
    - The Structural Similarity Index is a parametric method to determine the similarity of the original and decoded images. This process ensures the correctness of the retrieval of hidden information.
