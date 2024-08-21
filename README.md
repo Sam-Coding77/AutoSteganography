@@ -1,4 +1,4 @@
-# Image-Steganography - Convolutional Autoencoders
+# Image Steganography - Convolutional Autoencoders
 A deep learning-based steganography project utilizing autoencoders to securely embed and extract hidden messages within images.
 
 ## 1. Detailed Description
