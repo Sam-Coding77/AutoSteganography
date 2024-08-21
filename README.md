@@ -24,7 +24,7 @@ A deep learning-based steganography project utilizing autoencoders to securely e
 
 
 
-        ![Model Architecture](Model.png)
+        ![Model Architecture](Images/Model.png)
 
         
 
@@ -77,7 +77,7 @@ pip install -r requirements.txt
       
 
 
-     ![Dataset](Dataset.png)
+     ![Dataset](mages/Dataset.png)
 
      
 
@@ -88,7 +88,7 @@ pip install -r requirements.txt
     
 
 
-   ![Distribution of Error](Error.png)
+   ![Distribution of Error](mages/Error.png)
    
 
   
@@ -96,7 +96,7 @@ pip install -r requirements.txt
     
 
     
-    ![Steganography Results](Steganography.png)
+    ![Steganography Results](mages/Steganography.png)
 
     
   - **Structural Similarity Index Score (SSIM)**
@@ -104,7 +104,7 @@ pip install -r requirements.txt
     
     
 
-    ![SSIM Score](Result.png)
+    ![SSIM Score](mages/Result.png)
 
 
 
