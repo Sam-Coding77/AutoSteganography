@@ -1,7 +1,7 @@
 # Image-Steganography - Convolutional Autoencoders
 A deep learning-based steganography project utilizing autoencoders to securely embed and extract hidden messages within images.
 
-## Detailed Description
+## 1. Detailed Description
  This project deals with the practical application of a steganography system that will quiet use Deep Learning techniques, in particular, Convolutional Auto-encoders. The main aim of this project will be to securely hide a secret image inside another cover image from which it could then retrieve it back. The project will be designed so that it not only retains the cover image but also hides the secret image inside it effectively.
 
 ### Key Components:
@@ -45,7 +45,7 @@ understood and visualized steganography process.
    - The use of the Convolutional Autoencoders shown in the project is a modern way of steganography to achieve very high accuracy, both in the case of hiding and revealing the hidden information.
 
 
-## Installation
+## 2. Installation
 
 #### Clone the repository
 git clone https://github.com/username/steganography-using-autoencoders.git
@@ -60,14 +60,14 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 #### Install the required dependencies
 pip install -r requirements.txt
 
-## Dataset
+## 3. Dataset
   - The project uses the DIV2K dataset, which contains high-resolution images used for training and validation.
   - The dataset can be downloaded from Kaggle using the following command: !kaggle datasets download -d joe1995/div2k-dataset
   - Or download from this link: https://www.kaggle.com/datasets/joe1995/div2k-dataset
   - The images are preprocessed to a fixed size of 64x64 pixels for model input.
   - For training, half of the dataset is used as cover images and the other half as secret images.
 
-## Results
+## 4. Results
 
   - Distribution of Error in Cover & Secret Image
 
@@ -91,12 +91,12 @@ pip install -r requirements.txt
 
 
 
-## 10. References
+## 5. References
   - SteganoGAN : https://github.com/DAI-Lab/SteganoGAN
   - End-to-End Image Steganography Using Deep Convolutional Autoencoders : https://ieeexplore.ieee.org/document/9541180
   - End-to-end Trained CNN Encode-Decoder Networks for Image Steganography : https://paperswithcode.com/paper/end-to-end-trained-cnn-encode-decoder
   - DIV2K Dataset on Kaggle
 
-## 11. Contact
+## 6. Contact
   - For questions or collaborations, you can reach me at samama4200@gmail.com.
   - Connect with me on LinkedIn. www.linkedin.com/in/samama-
