@@ -1,16 +1,10 @@
-# Image-Steganography - Autoencoders
+# Image-Steganography - Convolutional Autoencoders
 A deep learning-based steganography project utilizing autoencoders to securely embed and extract hidden messages within images.
-
-
-Here is the updated description:
-
-### Project Title
-**Steganography Using Convolutional Autoencoders**
 
 ### Detailed Description
  This project deals with the practical application of a steganography system that will quiet use Deep Learning techniques, in particular, Convolutional Auto-encoders. The main aim of this project will be to securely hide a secret image inside another cover image from which it could then retrieve it back. The project will be designed so that it not only retains the cover image but also hides the secret image inside it effectively.
 
-#### **Key Components:
+#### Key Components:
 
 1. **Dataset Preparation:**
    - High-resolution images from the DIV2K dataset are used in the training and validation processes.
