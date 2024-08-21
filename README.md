@@ -47,17 +47,17 @@ understood and visualized steganography process.
 
 ## Installation
 
-### Clone the repository
+#### Clone the repository
 git clone https://github.com/username/steganography-using-autoencoders.git
 
-### Navigate to the project directory
+#### Navigate to the project directory
 cd steganography-using-autoencoders
 
-### Create a virtual environment (optional but recommended)
+#### Create a virtual environment (optional but recommended)
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-### Install the required dependencies
+#### Install the required dependencies
 pip install -r requirements.txt
 
 ## Dataset
@@ -68,15 +68,35 @@ pip install -r requirements.txt
   - For training, half of the dataset is used as cover images and the other half as secret images.
 
 ## Results
+
+  - Distribution of Error in Cover & Secret Image
+
+
+  
   - The model successfully embeds and retrieves secret images with minimal loss of quality.
   - Visual examples of the cover image, secret image, encoded image, and decoded image are provided:
+    
 
     
     ![Steganography Results](Steganography.png)
 
     
   - Structural Similarity Index Score (SSIM):
+
+    
     
 
     ![SSIM Score](Result.png)
 
+
+
+
+## 10. References
+  - SteganoGAN : https://github.com/DAI-Lab/SteganoGAN
+  - End-to-End Image Steganography Using Deep Convolutional Autoencoders : https://ieeexplore.ieee.org/document/9541180
+  - End-to-end Trained CNN Encode-Decoder Networks for Image Steganography : https://paperswithcode.com/paper/end-to-end-trained-cnn-encode-decoder
+  - DIV2K Dataset on Kaggle
+
+## 11. Contact
+  - For questions or collaborations, you can reach me at samama4200@gmail.com.
+  - Connect with me on LinkedIn. www.linkedin.com/in/samama-
