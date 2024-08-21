@@ -75,6 +75,8 @@ pip install -r requirements.txt
     ![Steganography Results](Steganography.png)
 
     
-  - Performance Metrics:
-  - Structural Similarity Index (SSIM) between original and decoded images.
+  - Structural Similarity Index Score (SSIM):
+    
+
+    ![SSIM Score](Result.png)
 
