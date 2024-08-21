@@ -20,6 +20,13 @@ A deep learning-based steganography project utilizing autoencoders to securely e
     
     - **Autoencoder:**
       - In this ensemble model, the embedding and revealing parts are combined so that both embedding and revealing procedures can be learned together. It is trained with an expanded loss function that includes not only the Mean Squared Error but also the Structural Similarity Index, Peak Signal-to-Noise Ratio, and a color histogram loss to maintain high fidelity in the reconstruction of images in both embedded and recovered states.
+     
+
+
+
+        ![Model Architecture](Model.png)
+
+        
 
 3. **Training and Evaluation:**
     - The model is trained for multiple epochs with a batch size of 16. A decaying learning rate schedule gives better convergence. The process is monitored with validation data, and the evaluation of the encoder and the decoder is to be tracked for the performance. Save loss history for both train and validation phases.
@@ -70,7 +77,11 @@ pip install -r requirements.txt
 ## 4. Results
 
   - Distribution of Error in Cover & Secret Image
+    
 
+
+   ![Distribution of Error](Error.png)
+   
 
   
   - The model successfully embeds and retrieves secret images with minimal loss of quality.
