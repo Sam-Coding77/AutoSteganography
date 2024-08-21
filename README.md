@@ -77,7 +77,7 @@ pip install -r requirements.txt
       
 
 
-     ![Dataset](mages/Dataset.png)
+     ![Dataset](Images/Dataset.png)
 
      
 
@@ -88,7 +88,7 @@ pip install -r requirements.txt
     
 
 
-   ![Distribution of Error](mages/Error.png)
+    ![Distribution of Error](Images/Error.png)
    
 
   
@@ -96,7 +96,7 @@ pip install -r requirements.txt
     
 
     
-    ![Steganography Results](mages/Steganography.png)
+    ![Steganography Results](Images/Steganography.png)
 
     
   - **Structural Similarity Index Score (SSIM)**
@@ -104,7 +104,7 @@ pip install -r requirements.txt
     
     
 
-    ![SSIM Score](mages/Result.png)
+    ![SSIM Score](Images/Result.png)
 
 
 
