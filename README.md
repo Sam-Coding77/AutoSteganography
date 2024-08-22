@@ -35,6 +35,13 @@ A deep learning-based steganography project utilizing autoencoders to securely e
 4. **Loss Functions:**
     - **Combined Loss:** The end-to-end loss function contains the combined MSE, SSIM, histogram loss as well as the PSNR loss so that the encoded image is very close in appearance to the cover image and the decoded image very close in appearance to the original secret image.
     - **Full Loss:** The loss function is applied to both the secret and cover images for their effective optimization during the training process.
+
+  
+
+      ![Loss Function](Images/Loss.png)
+      
+
+      
    
 5. **Image Processing Techniques:**
     - The project makes use of other techniques for image processing, which includes sharpening and smoothing, to give the encoded and decoded images a better look of quality.
