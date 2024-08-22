@@ -1,7 +1,17 @@
 # Image Steganography - Convolutional Autoencoders
 A deep learning-based steganography project utilizing autoencoders to securely embed and extract hidden messages within images.
 
-## 1. Detailed Description
+## Table of Contents
+
+- [Description](#Description)
+- [Installation](#Installation)
+- [Dataset](#Dataset)
+- [Results](#Results)
+- [References](#References)
+- [License](#license)
+- [Contact](#contact)
+
+## 1. Description
  This project deals with the practical application of a steganography system that will quiet use Deep Learning techniques, in particular, Convolutional Auto-encoders. The main aim of this project will be to securely hide a secret image inside another cover image from which it could then retrieve it back. The project will be designed so that it not only retains the cover image but also hides the secret image inside it effectively.
 
 ### Key Components:
@@ -120,6 +130,10 @@ pip install -r requirements.txt
   - SteganoGAN : https://github.com/DAI-Lab/SteganoGAN
   - End-to-End Image Steganography Using Deep Convolutional Autoencoders : https://ieeexplore.ieee.org/document/9541180
   - End-to-end Trained CNN Encode-Decoder Networks for Image Steganography : https://paperswithcode.com/paper/end-to-end-trained-cnn-encode-decoder
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 6. Contact
   - For questions or collaborations, you can reach me at samama4200@gmail.com.
