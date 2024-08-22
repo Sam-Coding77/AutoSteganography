@@ -129,7 +129,7 @@ pip install -r requirements.txt
 ## References
   - SteganoGAN : https://github.com/DAI-Lab/SteganoGAN
   - End-to-End Image Steganography Using Deep Convolutional Autoencoders : https://ieeexplore.ieee.org/document/9541180
-  - End-to-end Trained CNN Encode-Decoder Networks for Image Steganography : https://paperswithcode.com/paper/end-to-end-trained-cnn-encode-decoder
+  - End-to-end Trained CNN Encode-Decoder Networks : https://paperswithcode.com/paper/end-to-end-trained-cnn-encode-decoder
 
 ## License
 
